@@ -1,0 +1,26 @@
+{
+  "name": "mayoturis/php-config-writter",
+  "description": "Writing to PHP configuration files",
+  "keywords": [
+	"config", "configuration", "PHP", "Laravel"
+  ],
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Marek Turis",
+	  "email": "marek.turis@gmail.com"
+	}
+  ],
+  "require": {
+	"php": ">=5.4.0"
+  },
+  "require-dev": {
+	"phpunit/phpunit": "~4.1",
+	"mockery/mockery": "0.9.*"
+  },
+  "autoload": {
+	"psr-4": {
+	  "Mayoturis\\Properties\\": "src/"
+	}
+  }
+}
