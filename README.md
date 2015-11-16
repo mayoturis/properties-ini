@@ -100,7 +100,6 @@ age=35
 
 ###### Save all configuration values
 ```php
-
 $configArray = [
   "username" => "user",
   "password" => "password"
