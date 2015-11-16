@@ -1,8 +1,8 @@
 {
-  "name": "mayoturis/php-config-writter",
-  "description": "Writing to PHP configuration files",
+  "name": "mayoturis/properties-ini",
+  "description": "Getting and setting configuration values in ini (or java .properties) files",
   "keywords": [
-	"config", "configuration", "PHP", "Laravel"
+	"config", "configuration", "PHP", "ini", "properties", ".properties"
   ],
   "license": "MIT",
   "authors": [
