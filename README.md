@@ -23,7 +23,7 @@ $config->set('DB_STRICT_MODE', true);
 #### File format
 Reader can load these types of lines
 ```
-DB_HOST=localhost           // load as string 'localhost'
+DB_HOST=localhost           // loads as string 'localhost'
 DB_USERNAME="user"          // string 'user'
 DB_PASSWORD = 'password'    // string 'password'
 DB_STRICT_MODE=true         // boolean true
