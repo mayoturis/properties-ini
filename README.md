@@ -23,7 +23,7 @@ $config->set('DB_STRICT_MODE', true);
 #### File format
 Reader can load these types of lines
 ```
-DB_HOST=localhost           // loads as string 'localhost'
+DB_HOST=localhost           // loaded as string 'localhost'
 DB_USERNAME="user"          // string 'user'
 DB_PASSWORD = 'password'    // string 'password'
 DB_STRICT_MODE=true         // boolean true
@@ -32,9 +32,9 @@ FLOAT_VALUE=1.1             // float 1.1
 INT_VALUE=1                 // int 1
 NULL_VALUE=null             // null
 
-# comment                   // won't be load
-; comment                   // won't be load
-//comment                   // won't be load
+# comment                   // won't be loaded
+; comment                   // won't be loaded
+//comment                   // won't be loaded
 ```
 Comment has to be at the start of the line
 #### Example of file loading
@@ -46,7 +46,7 @@ salary=12.5
 married=false
 wife=null
 ```
-Will be load as
+Will be loaded as
 ```php
 [
   "name"    => "John",
